@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+
+    .menu-items {
+        display:none;
+    }
+    .mobile-menu-bar {
+        display: block;
+    }
+
+    
+}

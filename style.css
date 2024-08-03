@@ -28,6 +28,12 @@ header {
     font-size: 2rem;
     font-style: italic;
 }
+/* Mobile Menu Bar will be hidden */
+.mobile-menu-bar {
+    display: none;
+}
+
+/* Design for Desktop Menu */
 .menu-items {
     display: flex;
     gap: 30px;
