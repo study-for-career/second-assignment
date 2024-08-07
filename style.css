@@ -9,7 +9,7 @@
 }
 
 header {
-    background: linear-gradient(180.00deg, rgb(0, 0, 0),rgba(119, 119, 119, 0) 100%);
+    background-color: #232323;
 } 
 .container {
     width: 90%;
@@ -28,6 +28,7 @@ header {
     font-size: 2rem;
     font-style: italic;
 }
+
 /* Mobile Menu Bar will be hidden */
 .mobile-menu-bar {
     display: none;
@@ -48,8 +49,96 @@ header {
     font-weight: 400;
 }
 
+
 .color-bg {
     background-color: #E6533C;
     padding: 8px 20px;
     border-radius: 35px;
+}
+
+/* Hero Area style */
+
+.hero-area {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.text-area, .img-area {
+    width: 100%;
+}
+
+.heading-text {
+    padding: 80px 30px;
+}
+
+.heading-text h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.heading-text p {
+    color: #646464;
+    padding: 20px 0px;
+}
+
+.join-club, .download-app {
+    border: none;
+    padding: 10px 27px;
+}
+
+.download-app {
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    border-radius: 40px;
+}
+
+/* Image area and the cart design */
+.img-area {
+    background: url("images/Images 2.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top center;
+    position: relative;
+}
+
+
+/* Design of the two cards */
+.design-cart {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px 20px;
+    width: 150px;
+    text-align: justify;
+    position: absolute;
+}
+
+.free-workout {
+    top: 100px;
+    right: 50px;
+}
+
+.free-videos {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.red-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 50%;
+}
+.videos-text {
+    color: #646464;
+    font-size: 0.8rem;
+}
+
+.video-tutorial {
+    left: 10px;
+    bottom: 70px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
