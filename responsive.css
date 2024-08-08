@@ -34,4 +34,14 @@
         font-size: 1rem;
     }
     
+
+    /* Change your Habits */
+
+    .habits-photo-cards{
+        grid-template-columns: 1fr;
+    }
+
+    .habits-title-area h1 {
+        font-size: 1.5rem;
+    }
 }
