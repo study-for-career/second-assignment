@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-
+    /* Navigation Bar */
     .menu-items {
         display:none;
     }
@@ -7,5 +7,31 @@
         display: block;
     }
 
+    /* hero area style */
+    .hero-area {
+        flex-direction: column;
+    }
+    .text-area {
+        height: 400px;
+    }
+    .heading-text h1 {
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+    .join-club {
+        font-size: 0;
+        margin-bottom: 10px;
+    }
+    .shape-text-style {
+        font-size: 4rem;
+    }
+    .join-club::before {
+        content: "Join Now!";
+        font-size: 16px;
+    }
+
+    .free-videos {
+        font-size: 1rem;
+    }
     
 }
