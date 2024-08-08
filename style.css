@@ -194,3 +194,46 @@ section {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
 }
+
+/* Run an Extra Mile Easily */
+
+.extra-mile {
+    background-color: #222222;
+    border-radius: 20px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 100px;
+}
+
+.extra-mile-text-area h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.extra-mile-text-area p {
+    font-weight: 400;
+    color: #FFFFFF80;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.extra-mile-btn {
+    padding: 10px 60px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.extra-mile-mobile {
+    display: none;
+}
+.extra-mile-photo-area {
+    text-align: end;
+}
+.extra-mile-photo-area img {
+    border-radius: 20px;
+}
+

@@ -44,4 +44,22 @@
     .habits-title-area h1 {
         font-size: 1.5rem;
     }
+
+    /* Run an Extra Mile Easily */
+    .extra-mile {
+        grid-template-columns: 1fr;
+    }
+
+    .extra-mile-pc {
+        display: none;
+    }
+
+    .extra-mile-mobile {
+        display: block;
+        width: 100%;
+    }
+    .extra-mile-btn {
+        width: 100%;
+        /* padding: 30px 0px; */
+    }
 }
