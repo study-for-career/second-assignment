@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 * {
     margin: 0;
@@ -75,11 +76,18 @@ header {
 .heading-text h1 {
     font-size: 3.5rem;
     font-weight: 900;
+    line-height: 60px;
 }
 
 .heading-text p {
     color: #646464;
     padding: 20px 0px;
+}
+
+.shape-text-style {
+    font-family: miama;
+    font-size: 6rem;
+    font-weight: 400;
 }
 
 .join-club, .download-app {
