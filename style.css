@@ -312,3 +312,39 @@ section {
     margin-top: 15px;
     border-radius: 10px;
 }
+
+
+/* Meet Our Team */
+
+.our-team-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    background-color: #FFFFFF1A;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.single-team-member {
+    position: relative;
+}
+
+.info-container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.img-container img {
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+.info-container p {
+    color: #ffffffb1;
+    margin-top: 5px;
+}
