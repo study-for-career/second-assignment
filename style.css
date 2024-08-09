@@ -316,6 +316,13 @@ section {
 
 /* Meet Our Team */
 
+.meet-title-area {
+    text-align: center;
+}
+
+.meet-title-area h1 {
+    margin-bottom: 10px;
+}
 .our-team-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -336,8 +343,8 @@ section {
 }
 
 .img-container img {
-    height: 250px;
-    width: 500px;
+    height: 300px;
+    width: 100%;
     object-fit: cover;
     max-width: 100%;
     max-height: 100%;

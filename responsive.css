@@ -72,4 +72,13 @@
     #bmi-inputs > input, #opt1, #opt2 {
         font-size: 0.6rem;
     }
+
+    /* Meet Our Team */
+    .our-team-gallery {
+        grid-template-columns: 1fr;
+    }
+    .img-container img {
+        height: 300px;
+        width: 100%;
+    }
 }
