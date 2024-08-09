@@ -60,6 +60,16 @@
     }
     .extra-mile-btn {
         width: 100%;
-        /* padding: 30px 0px; */
+    }
+
+    /* BMI Calculator */
+    .bmi-calculation-area {
+        flex-direction: column;
+    }
+    .bmi-calculator {
+        width: 100%;
+    }
+    #bmi-inputs > input, #opt1, #opt2 {
+        font-size: 0.6rem;
     }
 }
