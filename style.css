@@ -355,3 +355,44 @@ section {
     color: #ffffffb1;
     margin-top: 5px;
 }
+
+/* Footer Section */
+
+.footer {
+    background-color: #222222;
+}
+.fitness-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.get-started {
+    margin: 0 auto;
+}
+.fitness h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.fitness p, hr {
+    font-size: 0.8rem;
+    color: #ffffffb1;
+}
+.get-started h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.get-started > ul > li {
+    font-size: 1.2rem;
+    color: #FFFFFF80;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+.copyright p{
+    text-align: center;
+    padding: 10px 0px;
+    color: #FFFFFF80;
+}
