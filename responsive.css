@@ -81,4 +81,12 @@
         height: 300px;
         width: 100%;
     }
+
+    /* Footer */
+    .fitness-footer {
+        grid-template-columns: 1fr;
+    }
+    .get-started {
+        margin: 0;
+    }
 }
