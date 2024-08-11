@@ -161,6 +161,9 @@ header {
     font-weight: 900;
     margin-bottom: 10px;
 }
+.best-exercises-title p {
+    color: #FFFFFF80;
+}
 
 .walk-swim-part {
     background-color: #222222;
