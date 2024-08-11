@@ -10,7 +10,7 @@
 }
 
 header {
-    background: linear-gradient(180deg, #777777, #111111);
+    background: linear-gradient(180deg, #2d2c2c, #111111);
 } 
 .container {
     width: 90%;
@@ -149,6 +149,50 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+/* Best Exercises */
+
+.best-exercises-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.best-exercises-title h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.walk-swim-part {
+    background-color: #222222;
+    border-radius: 20px;
+    padding: 50px;
+}
+.walking-part, .swimming-part {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: center;
+    align-items: center; 
+    gap: 120px;
+    
+}
+.descript {
+    color: #FFFFFF80;
+    margin: 10px 0px;
+    text-align: justify;
+}
+ .walking-title-area, .swimming-title-area {
+    width: 100%;
+}
+.walking-img, .swimming-img {
+    width: 100%;
+} 
+.walking-img img, .swimming-img img {
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* Change your habits section style */
