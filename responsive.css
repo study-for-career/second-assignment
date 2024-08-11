@@ -33,7 +33,17 @@
     .free-videos {
         font-size: 1rem;
     }
-    
+    /* Best Exercises */
+
+    .walking-part {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .swimming-part {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
 
     /* Change your Habits */
 
@@ -89,4 +99,5 @@
     .get-started {
         margin: 0;
     }
+
 }

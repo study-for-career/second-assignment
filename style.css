@@ -169,7 +169,6 @@ header {
 }
 .walking-part, .swimming-part {
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
     justify-content: center;
     align-items: center; 
     gap: 120px;
