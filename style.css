@@ -10,7 +10,7 @@
 }
 
 header {
-    background: linear-gradient(180deg, #2d2c2c, #111111);
+    background: linear-gradient(180deg, #111111, #2d2c2c, #111111);
 } 
 .container {
     width: 90%;
