@@ -281,6 +281,9 @@ section {
 }
 .extra-mile-photo-area img {
     border-radius: 20px;
+    width: 100%;
+    object-position: 69% 28%;
+    object-fit: none;
 }
 
 /* BMI Calculator Section */

@@ -63,17 +63,11 @@
     .extra-mile {
         grid-template-columns: 1fr;
     }
-
-    .extra-mile-pc {
-        display: none;
-    }
-
-    .extra-mile-mobile {
-        display: block;
-        width: 100%;
-    }
     .extra-mile-btn {
         width: 100%;
+    }
+    .extra-mile-photo-area img {
+        object-fit: cover;
     }
 
     /* BMI Calculator */
